@@ -1,0 +1,46 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    gap: 1rem;
+}
+.appTittle{
+    position:absolute;
+    top :2em;
+    font-size: 2.5rem;
+}
+.phraseCard{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    border:0.15em solid gray
+}
+
+.btnPhrase{
+    background-color:white;
+    padding: 1.2em;
+    border-radius: 2em;
+    
+    transition:transform 0.5s ,background-color 0.5s,filter 0.5s;
+    color: gray;
+    border: o.2em solid currentColor;
+
+}
+.btnPhrase:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+    filter: brightness(1.1);
+}
+
+.authorCard{
+    position: absolute;
+    bottom: 2em;
+    font-size: 0.8rem;
+    
+}
