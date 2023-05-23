@@ -6,7 +6,8 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    gap: 1rem;
+    padding: 1em;
+    gap: 1em;
 }
 .appTittle{
     position:absolute;
@@ -19,7 +20,8 @@
     padding: 1rem;
     line-height: 1.8;
     font-size: 1.2rem;
-    border:0.15em solid gray
+    border:0.15em solid gray;
+    
 }
 
 .btnPhrase{

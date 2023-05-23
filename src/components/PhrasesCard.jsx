@@ -4,7 +4,7 @@
 const PhrasesCard = ({phraseRandom}) => {
   return (
     
-        <h2 className="phraseCard">{phraseRandom.phrase} <br />
+        <h2 className="phraseCard">{phraseRandom.phrase} 
          
         </h2>
     
